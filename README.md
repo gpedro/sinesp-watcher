@@ -14,7 +14,9 @@ npm install
 
 ### configuração
 - abra o package.json e efetue a configuração das variáveis de ambiente `NODE_ENV` e `DISCORD_WEBHOOK`
-- para rodar, apenas utilize `npm start`
+- para rodar, utilize `npm start` para desenvolvimento ou `npm start-prod` para produção.
+
+obs: quando `NODE_ENV=development` não será executado enviado o webhook para o discord, apenas mostrado o conteúdo da mensagem na tela.
 
 ### licença
 ```
