@@ -1,0 +1,17 @@
+{
+  "name": "sinesp-watcher",
+  "version": "1.0.0",
+  "description": "seja notificando sempre que hover uma atualização do aplicativo Sinesp Cidadão (Android)",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development DISCORD_WEBHOOK= node index.js",
+    "start-prod": "NODE_ENV=production DISCORD_WEBHOOK= node index.js"
+  },
+  "author": "gpedro <contato@gpedro.net>",
+  "license": "MIT",
+  "dependencies": {
+    "google-play-scraper": "^6.2.3",
+    "got": "^9.6.0",
+    "moment": "^2.24.0"
+  }
+}
